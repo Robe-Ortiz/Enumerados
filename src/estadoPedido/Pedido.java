@@ -25,6 +25,11 @@ public class Pedido {
 		System.out.println(prueba.getEstadoActualPedido());	
 		prueba.setEstadoActualPedido(prueba.getEstadoActualPedido().siguienteEstado());
 		System.out.println(prueba.getEstadoActualPedido());
+		prueba.setEstadoActualPedido(prueba.getEstadoActualPedido().siguienteEstado());
+		System.out.println(prueba.getEstadoActualPedido());
+		prueba.setEstadoActualPedido(prueba.getEstadoActualPedido().siguienteEstado());
+		System.out.println(prueba.getEstadoActualPedido());
+		
 		
 
 		
